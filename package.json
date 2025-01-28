@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fernandoslim/odoo-jsonrpc.git"
+    "url": "git+https://github.com/sbpro86/odoo-jsonrpc.git"
   },
   "keywords": [
     "odoo",
@@ -22,9 +22,9 @@
   "author": "Fernando Slim <xferchox@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fernandoslim/odoo-jsonrpc/issues"
+    "url": "https://github.com/sbpro86/odoo-jsonrpc/issues"
   },
-  "homepage": "https://github.com/fernandoslim/odoo-jsonrpc#readme",
+  "homepage": "https://github.com/sbpro86/odoo-jsonrpc#readme",
   "devDependencies": {
     "typescript": "^4.0.0"
   }
