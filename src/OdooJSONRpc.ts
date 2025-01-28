@@ -271,9 +271,12 @@ export default class OdooJSONRpc {
     if (odoo_error) {
       throw new Error(body?.error?.data?.message);
     }
-    const cookies = response.headers.get('set-cookie');
+    var cookies = response.headers.get('set-cookie');
     if (!cookies) {
-      throw new Error('Cookie not found in response headers, please check your credentials');
+      cookies = response.headers.get('Set-Cookie');
+      if (!cookies) {
+        throw new Error('Cookie not found in response headers, please check your credentials');
+      }
     }
     if (!cookies.includes('session_id')) {
       throw new Error('session_id not found in cookies');
