@@ -11,10 +11,10 @@
   "scripts": {
     "build": "tsc"
   },
-  "repository": "https://github.com/fernandoslim/odoo-jsonrpc.git",
+  "repository": "https://github.com/sbpro86/odoo-jsonrpc.git",
   "keywords": ["odoo", "jsonrpc", "typescript", "rpc", "client"],
   "author": "Fernando Slim <xferchox@gmail.com>",
   "license": "ISC",
-  "bugs": "https://github.com/fernandoslim/odoo-jsonrpc/issues",
-  "homepage": "https://github.com/fernandoslim/odoo-jsonrpc#readme"
+  "bugs": "https://github.com/sbpro86/odoo-jsonrpc/issues",
+  "homepage": "https://github.com/sbpro86/odoo-jsonrpc#readme"
 }
